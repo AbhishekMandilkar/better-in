@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "scheme": "better-in",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "better-in",
+    "slug": "better-in",
+    "plugins": ["expo-font"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
