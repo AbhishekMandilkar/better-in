@@ -19,7 +19,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "bun run --filter '*' dev",
+    "dev": "bun run --filter 'web' --filter '@better-in/*' dev",
     "build": "bun run --filter '*' build",
     "check-types": "bun run --filter '*' check-types",
     "dev:native": "bun run --filter native dev",

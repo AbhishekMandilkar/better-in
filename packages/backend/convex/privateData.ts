@@ -4,6 +4,7 @@ import { authComponent } from "./auth";
 export const get = query({
   args: {},
   handler: async (ctx) => {
+    // @ts-expect-error - ctx is not a GenericCtx
     const authUser = await authComponent.safeGetAuthUser(ctx);
     if (!authUser) {
       return {
